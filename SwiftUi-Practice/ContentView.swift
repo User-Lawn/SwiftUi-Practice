@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("logo").resizable().aspectRatio(contentMode: .fit)
+        VStack {
+            Image("logo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            
+            HStack(spacing: 10.0) {
+                Text("hello")
+                Text("world")
+            }
+        }
+        
+      
     }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -18,3 +30,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
