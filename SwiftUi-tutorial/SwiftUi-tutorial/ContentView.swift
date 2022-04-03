@@ -26,7 +26,7 @@ struct ContentView: View {
                     withAnimation {self.isActivated.toggle()}
                 }
         
-            NavigationLink(destination: Text("호호")) {
+            NavigationLink(destination: MyTextView()) {
                 Text("네비게이션")
                     .font(.system(size: 40))
                     .fontWeight(.bold)
