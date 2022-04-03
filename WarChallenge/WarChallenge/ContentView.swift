@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  War-Challenge
+//  WarChallenge
 //
-//  Created by Jun.Mac on 2022/04/02.
+//  Created by Jun.Mac on 2022/04/03.
 //
 
 import SwiftUI
@@ -25,7 +25,11 @@ struct ContentView: View {
                     Spacer()
                 }
                 Spacer()
-                Image("dealbutton")
+                
+                Button(action: {}, label: {
+                    Image("dealbutton")
+                })
+                
                 Spacer()
                 HStack {
                     Spacer()
@@ -53,6 +57,7 @@ struct ContentView: View {
                 }
                 Spacer()
             }
+   
         }
     }
 }

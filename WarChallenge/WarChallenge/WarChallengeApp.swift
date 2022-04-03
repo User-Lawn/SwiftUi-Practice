@@ -1,14 +1,14 @@
 //
-//  War_ChallengeApp.swift
-//  War-Challenge
+//  WarChallengeApp.swift
+//  WarChallenge
 //
-//  Created by Jun.Mac on 2022/04/02.
+//  Created by Jun.Mac on 2022/04/03.
 //
 
 import SwiftUI
 
 @main
-struct War_ChallengeApp: App {
+struct WarChallengeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
