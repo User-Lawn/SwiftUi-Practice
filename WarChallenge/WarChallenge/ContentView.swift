@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var playerCard = "card5"
+    @State var cpuCard = "card9"
+    @State var playerScore = 0
+    @State var CpuScore = 0
+    
     var body: some View {
         
         ZStack {
@@ -19,14 +25,28 @@ struct ContentView: View {
                 Spacer()
                 HStack{
                     Spacer()
-                    Image("card2")
+                    Image(playerCard)
                     Spacer()
-                    Image("card3")
+                    Image(cpuCard)
                     Spacer()
                 }
                 Spacer()
                 
-                Button(action: {}, label: {
+                Button(action: {
+                    
+                    // Generate a random number between 2 and 14
+                    let playerRand = Int.random(in: 2...14)
+                    let cpuRand = Int.random(in: 2...14)
+                    
+                    // Update the card
+                    playerCard = "card" + String(playerRand)
+                    cpuCard = "card" + String(cpuRand)
+                    
+                    // Update the score
+                    playerScore += 1
+                    CpuScore += 1
+                    
+                }, label: {
                     Image("dealbutton")
                 })
                 
@@ -38,7 +58,7 @@ struct ContentView: View {
                             .font(.headline)
                             .foregroundColor(Color.white)
                             .padding(.bottom, 10.0)
-                        Text("0")
+                        Text(String(playerScore))
                             .font(.largeTitle)
                             .foregroundColor(Color.white)
                     }
@@ -48,7 +68,7 @@ struct ContentView: View {
                             .font(.headline)
                             .foregroundColor(Color.white)
                             .padding(.bottom, 10.0)
-                        Text("0")
+                        Text(String(CpuScore))
                             .font(.largeTitle)
                             .foregroundColor(Color.white)
                     }
