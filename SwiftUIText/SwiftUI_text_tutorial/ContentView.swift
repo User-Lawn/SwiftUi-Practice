@@ -27,14 +27,14 @@ struct ContentView: View {
         
         VStack{
             Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ")
-                .tracking(2)
+                .tracking(2) //글자 사이 간격
                 
                 .font(.system(.body, design: .rounded))
                 .fontWeight(.medium)
-                .multilineTextAlignment(.center)
+                .multilineTextAlignment(.center) // 정렬
                 .lineLimit(nil)
-                .lineSpacing(10)
-                .truncationMode(.middle)
+                .lineSpacing(10) // 글자 위아래 여백
+                .truncationMode(.middle)// 글이 길어지면 잘리는거
         
                 
                 .shadow(color: Color.red, radius: 1.5, x: -10, y: 10)
