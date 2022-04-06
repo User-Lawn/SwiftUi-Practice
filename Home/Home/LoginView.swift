@@ -61,47 +61,93 @@ struct Login : View {
                             .fill(Color(red: 0.973, green: 0.973, blue: 0.973))
                             .frame(width: 350, height: 50)
                        
-                        TextField("비밀번호를 입력하세요", text: self.$pass)
+                        SecureField("비밀번호를 입력하세요", text: self.$pass)
                             .padding(.leading, 30.0)
                             .font(.system(size: 16))
                             .foregroundColor(Color.gray)
                 }
             }.padding(.bottom, 10)
+          
             HStack(){
                 
-                Text("자동 로그인")
-                    .font(.system(size: 16))
-                    .fontWeight(.regular)
-                    .foregroundColor(Color.gray)
-            
-                Text("아이디 저장")
-                    .font(.system(size: 16))
-                    .fontWeight(.regular)
-                    .foregroundColor(Color.gray)
-                }
-            .padding(.bottom, 40)
-            VStack(){
-                ZStack(){
-                    RoundedRectangle(cornerRadius: 10)
-                        .fill(Color(red: -0.291, green: 0.623, blue: 0.765))
-                        .frame(width: 350, height: 50)
-                   
-                    Text("로그인")
-                        .fontWeight(.bold)
-                        .padding(.leading, 30.0)
+                    Text("자동 로그인")
                         .font(.system(size: 16))
-                        .foregroundColor(Color.white)
-                    }
-                    ZStack(){
-                        RoundedRectangle(cornerRadius: 10)
-                            .fill(Color(red: 1.013, green: 0.914, blue: -0.32))
-                            .frame(width: 350, height: 50)
-                       
-                        Text("카카오로 3초안에 시작하기")
+                        .fontWeight(.regular)
+                        .foregroundColor(Color.gray)
+            
+                    Text("아이디 저장")
+                        .font(.system(size: 16))
+                        .fontWeight(.regular)
+                        .foregroundColor(Color.gray)
+                    }.padding(.bottom, 30)
+           
+            VStack(){
+               
+                    Button(action: {}) {
+                        
+                        Text("로그인")
+                            .foregroundColor(.white)
                             .fontWeight(.bold)
-                            .padding(.leading, 30.0)
-                            .font(.system(size: 16))
-                            .foregroundColor(Color.black)
+                            .padding(.vertical)
+                            .padding(.horizontal, 145)
+                            .background(Color(red: -0.291, green: 0.623, blue: 0.765))
+                            .cornerRadius(8)
+                        }
+
+                    Button(action: {}) {
+                            
+                        Text("카카오로 3초안에 로그인하기")
+                            .foregroundColor(.black)
+                            .fontWeight(.bold)
+                            .padding(.vertical)
+                            .padding(.horizontal, 70)
+                            .background(Color(red: 1.013, green: 0.914, blue: -0.32))
+                            .cornerRadius(8)
+                              
+                        }
+                
+            }.padding(.bottom, 10)
+            
+            HStack(){
+                
+                    Text("계정을 잊으셨나요?")
+                        .font(.system(size: 14))
+               
+                Button(action: {}) {
+                        
+                    Text("아이디 찾기")
+                        .font(.system(size: 14))
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(red: -0.011, green: 0.625, blue: 0.764))
+                       
+                          
+                    }
+               
+                Text("또는")
+                    .font(.system(size: 14))
+                    
+                Button(action: {}) {
+                        
+                    Text("비밀번호 찾기")
+                        .font(.system(size: 14))
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(red: -0.011, green: 0.625, blue: 0.764))
+                      
+                    }
+                }.padding(.bottom, 60)
+            
+            HStack(){
+                
+                Text("아직 회원이 아닌가요?")
+                    .font(.system(size: 14))
+                
+                Button(action: {}) {
+                        
+                    Text("회원가입 ")
+                        .font(.system(size: 14))
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(red: -0.011, green: 0.625, blue: 0.764))
+                      
                     }
                 }
             }
