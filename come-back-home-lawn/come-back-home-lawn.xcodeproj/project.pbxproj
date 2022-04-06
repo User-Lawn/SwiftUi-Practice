@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70BBB09727FC8C360004A7C6 /* LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBB09627FC8C360004A7C6 /* LoginApp.swift */; };
-		70BBB09927FC8C360004A7C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBB09827FC8C360004A7C6 /* ContentView.swift */; };
-		70BBB09B27FC8C360004A7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BBB09A27FC8C360004A7C6 /* Assets.xcassets */; };
-		70BBB09E27FC8C360004A7C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BBB09D27FC8C360004A7C6 /* Preview Assets.xcassets */; };
-		70BBB0A527FC8C4D0004A7C6 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBB0A427FC8C4D0004A7C6 /* Login.swift */; };
-		70BBB0A727FC8C6A0004A7C6 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBB0A627FC8C6A0004A7C6 /* SignUp.swift */; };
+		70BBB0B527FD36550004A7C6 /* come_back_home_lawnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBB0B427FD36550004A7C6 /* come_back_home_lawnApp.swift */; };
+		70BBB0B727FD36550004A7C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BBB0B627FD36550004A7C6 /* ContentView.swift */; };
+		70BBB0B927FD36550004A7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BBB0B827FD36550004A7C6 /* Assets.xcassets */; };
+		70BBB0BC27FD36550004A7C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70BBB0BB27FD36550004A7C6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		70BBB09327FC8C360004A7C6 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		70BBB09627FC8C360004A7C6 /* LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginApp.swift; sourceTree = "<group>"; };
-		70BBB09827FC8C360004A7C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		70BBB09A27FC8C360004A7C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		70BBB09D27FC8C360004A7C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		70BBB0A427FC8C4D0004A7C6 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		70BBB0A627FC8C6A0004A7C6 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		70BBB0B127FD36550004A7C6 /* come-back-home-lawn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "come-back-home-lawn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70BBB0B427FD36550004A7C6 /* come_back_home_lawnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = come_back_home_lawnApp.swift; sourceTree = "<group>"; };
+		70BBB0B627FD36550004A7C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70BBB0B827FD36550004A7C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70BBB0BB27FD36550004A7C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		70BBB09027FC8C360004A7C6 /* Frameworks */ = {
+		70BBB0AE27FD36550004A7C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		70BBB08A27FC8C360004A7C6 = {
+		70BBB0A827FD36550004A7C6 = {
 			isa = PBXGroup;
 			children = (
-				70BBB09527FC8C360004A7C6 /* Login */,
-				70BBB09427FC8C360004A7C6 /* Products */,
+				70BBB0B327FD36550004A7C6 /* come-back-home-lawn */,
+				70BBB0B227FD36550004A7C6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		70BBB09427FC8C360004A7C6 /* Products */ = {
+		70BBB0B227FD36550004A7C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70BBB09327FC8C360004A7C6 /* Login.app */,
+				70BBB0B127FD36550004A7C6 /* come-back-home-lawn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70BBB09527FC8C360004A7C6 /* Login */ = {
+		70BBB0B327FD36550004A7C6 /* come-back-home-lawn */ = {
 			isa = PBXGroup;
 			children = (
-				70BBB09627FC8C360004A7C6 /* LoginApp.swift */,
-				70BBB09827FC8C360004A7C6 /* ContentView.swift */,
-				70BBB09A27FC8C360004A7C6 /* Assets.xcassets */,
-				70BBB09C27FC8C360004A7C6 /* Preview Content */,
-				70BBB0A427FC8C4D0004A7C6 /* Login.swift */,
-				70BBB0A627FC8C6A0004A7C6 /* SignUp.swift */,
+				70BBB0B427FD36550004A7C6 /* come_back_home_lawnApp.swift */,
+				70BBB0B627FD36550004A7C6 /* ContentView.swift */,
+				70BBB0B827FD36550004A7C6 /* Assets.xcassets */,
+				70BBB0BA27FD36550004A7C6 /* Preview Content */,
 			);
-			path = Login;
+			path = "come-back-home-lawn";
 			sourceTree = "<group>";
 		};
-		70BBB09C27FC8C360004A7C6 /* Preview Content */ = {
+		70BBB0BA27FD36550004A7C6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				70BBB09D27FC8C360004A7C6 /* Preview Assets.xcassets */,
+				70BBB0BB27FD36550004A7C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70BBB09227FC8C360004A7C6 /* Login */ = {
+		70BBB0B027FD36550004A7C6 /* come-back-home-lawn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70BBB0A127FC8C360004A7C6 /* Build configuration list for PBXNativeTarget "Login" */;
+			buildConfigurationList = 70BBB0BF27FD36550004A7C6 /* Build configuration list for PBXNativeTarget "come-back-home-lawn" */;
 			buildPhases = (
-				70BBB08F27FC8C360004A7C6 /* Sources */,
-				70BBB09027FC8C360004A7C6 /* Frameworks */,
-				70BBB09127FC8C360004A7C6 /* Resources */,
+				70BBB0AD27FD36550004A7C6 /* Sources */,
+				70BBB0AE27FD36550004A7C6 /* Frameworks */,
+				70BBB0AF27FD36550004A7C6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Login;
-			productName = Login;
-			productReference = 70BBB09327FC8C360004A7C6 /* Login.app */;
+			name = "come-back-home-lawn";
+			productName = "come-back-home-lawn";
+			productReference = 70BBB0B127FD36550004A7C6 /* come-back-home-lawn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		70BBB08B27FC8C360004A7C6 /* Project object */ = {
+		70BBB0A927FD36550004A7C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					70BBB09227FC8C360004A7C6 = {
+					70BBB0B027FD36550004A7C6 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = 70BBB08E27FC8C360004A7C6 /* Build configuration list for PBXProject "Login" */;
+			buildConfigurationList = 70BBB0AC27FD36550004A7C6 /* Build configuration list for PBXProject "come-back-home-lawn" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 70BBB08A27FC8C360004A7C6;
-			productRefGroup = 70BBB09427FC8C360004A7C6 /* Products */;
+			mainGroup = 70BBB0A827FD36550004A7C6;
+			productRefGroup = 70BBB0B227FD36550004A7C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70BBB09227FC8C360004A7C6 /* Login */,
+				70BBB0B027FD36550004A7C6 /* come-back-home-lawn */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		70BBB09127FC8C360004A7C6 /* Resources */ = {
+		70BBB0AF27FD36550004A7C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BBB09E27FC8C360004A7C6 /* Preview Assets.xcassets in Resources */,
-				70BBB09B27FC8C360004A7C6 /* Assets.xcassets in Resources */,
+				70BBB0BC27FD36550004A7C6 /* Preview Assets.xcassets in Resources */,
+				70BBB0B927FD36550004A7C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		70BBB08F27FC8C360004A7C6 /* Sources */ = {
+		70BBB0AD27FD36550004A7C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BBB0A527FC8C4D0004A7C6 /* Login.swift in Sources */,
-				70BBB0A727FC8C6A0004A7C6 /* SignUp.swift in Sources */,
-				70BBB09927FC8C360004A7C6 /* ContentView.swift in Sources */,
-				70BBB09727FC8C360004A7C6 /* LoginApp.swift in Sources */,
+				70BBB0B727FD36550004A7C6 /* ContentView.swift in Sources */,
+				70BBB0B527FD36550004A7C6 /* come_back_home_lawnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		70BBB09F27FC8C360004A7C6 /* Debug */ = {
+		70BBB0BD27FD36550004A7C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		70BBB0A027FC8C360004A7C6 /* Release */ = {
+		70BBB0BE27FD36550004A7C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,14 +259,14 @@
 			};
 			name = Release;
 		};
-		70BBB0A227FC8C360004A7C6 /* Debug */ = {
+		70BBB0C027FD36550004A7C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Login/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"come-back-home-lawn/Preview Content\"";
 				DEVELOPMENT_TEAM = 4SJ8XJ2NSA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -288,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lawn.Login;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lawn.come-back-home-lawn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		70BBB0A327FC8C360004A7C6 /* Release */ = {
+		70BBB0C127FD36550004A7C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Login/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"come-back-home-lawn/Preview Content\"";
 				DEVELOPMENT_TEAM = 4SJ8XJ2NSA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -317,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lawn.Login;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lawn.come-back-home-lawn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70BBB08E27FC8C360004A7C6 /* Build configuration list for PBXProject "Login" */ = {
+		70BBB0AC27FD36550004A7C6 /* Build configuration list for PBXProject "come-back-home-lawn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70BBB09F27FC8C360004A7C6 /* Debug */,
-				70BBB0A027FC8C360004A7C6 /* Release */,
+				70BBB0BD27FD36550004A7C6 /* Debug */,
+				70BBB0BE27FD36550004A7C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70BBB0A127FC8C360004A7C6 /* Build configuration list for PBXNativeTarget "Login" */ = {
+		70BBB0BF27FD36550004A7C6 /* Build configuration list for PBXNativeTarget "come-back-home-lawn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70BBB0A227FC8C360004A7C6 /* Debug */,
-				70BBB0A327FC8C360004A7C6 /* Release */,
+				70BBB0C027FD36550004A7C6 /* Debug */,
+				70BBB0C127FD36550004A7C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 70BBB08B27FC8C360004A7C6 /* Project object */;
+	rootObject = 70BBB0A927FD36550004A7C6 /* Project object */;
 }
