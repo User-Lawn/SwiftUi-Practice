@@ -11,7 +11,7 @@ struct ImageView: View {
     
     var body: some View {
         
-        Text("Hello")
+        Image(systemName: "gift.fill")
             
             
     }

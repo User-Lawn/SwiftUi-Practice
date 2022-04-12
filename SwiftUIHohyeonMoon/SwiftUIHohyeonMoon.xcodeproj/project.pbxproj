@@ -13,6 +13,7 @@
 		70FBF1B928045CB200E293F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70FBF1B828045CB200E293F7 /* Preview Assets.xcassets */; };
 		70FBF1C228045F6A00E293F7 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FBF1C128045F6A00E293F7 /* TextView.swift */; };
 		70FBF1C428050F2B00E293F7 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FBF1C328050F2B00E293F7 /* ImageView.swift */; };
+		70FBF1C62805112000E293F7 /* BottonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FBF1C52805112000E293F7 /* BottonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		70FBF1B828045CB200E293F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70FBF1C128045F6A00E293F7 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		70FBF1C328050F2B00E293F7 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		70FBF1C52805112000E293F7 /* BottonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				70FBF1B328045CB100E293F7 /* ContentView.swift */,
 				70FBF1C128045F6A00E293F7 /* TextView.swift */,
 				70FBF1C328050F2B00E293F7 /* ImageView.swift */,
+				70FBF1C52805112000E293F7 /* BottonView.swift */,
 				70FBF1B528045CB200E293F7 /* Assets.xcassets */,
 				70FBF1B728045CB200E293F7 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70FBF1C428050F2B00E293F7 /* ImageView.swift in Sources */,
+				70FBF1C62805112000E293F7 /* BottonView.swift in Sources */,
 				70FBF1C228045F6A00E293F7 /* TextView.swift in Sources */,
 				70FBF1B428045CB100E293F7 /* ContentView.swift in Sources */,
 				70FBF1B228045CB100E293F7 /* SwiftUIHohyeonMoonApp.swift in Sources */,
