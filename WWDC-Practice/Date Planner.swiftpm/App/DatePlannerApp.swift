@@ -11,6 +11,7 @@ struct DatePlannerApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
+                //EventList는 홈 보기이며 앱이 시작되면 보여지는 첫 페이지 입니다.
                 EventList()
                 Text("Select an Event")
                     .foregroundStyle(.secondary)
