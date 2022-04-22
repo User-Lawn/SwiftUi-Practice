@@ -4,9 +4,10 @@ See the License.txt file for this sample’s licensing information.
 
 import Foundation
 import SwiftUI
-
+//narrative를 구성하려면 StoryPage의 인스턴스 배열을 사용하는 Story 인스턴스가 필요합니다.
 let story = Story(pages: [
     StoryPage( // 0
+        //""" -> String값을 생성하는 법, 스토리를 훨씬 더 쉽게 읽게하고 편집할 수 있습니다.
         """
         Welcome to Choose Your Own Story
         🥖🍪Bake Off!🥐🍰
@@ -15,7 +16,9 @@ let story = Story(pages: [
         
         Each station is stocked with bowls of different sizes, spatulas, spoons, and a standing mixer. You are the third to arrive, so there are many stations still available. Where do you sit?
         """,
+        //선택사항들 입니다.
         choices: [
+            //인덱스의 순서는 0부터 시작합니다. 가지고 있는 인덱스보다 높은 값이 들어가면 충돌이 발생합니다!! 
             Choice(text: "Front row!", destination: 1),
             Choice(text: "Find somewhere in the middle", destination: 1),
             Choice(text: "Back of the room", destination: 2),
