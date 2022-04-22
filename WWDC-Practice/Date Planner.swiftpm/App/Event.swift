@@ -6,10 +6,10 @@ import SwiftUI
 
 struct Event: Identifiable, Hashable {
     var id = UUID()
-    var symbol: String = EventSymbols.randomName()
-    var color: Color = ColorOptions.random()
-    var title = ""
-    var tasks = [EventTask(text: "")]
+    var symbol: String = EventSymbols.randomName() //기호
+    var color: Color = ColorOptions.random() //색상
+    var title = "" //날짜
+    var tasks = [EventTask(text: "")] //작업모음
     var date = Date()
 
     var remainingTaskCount: Int {
@@ -19,7 +19,7 @@ struct Event: Identifiable, Hashable {
     var isComplete: Bool {
         tasks.allSatisfy { $0.isCompleted }
     }
-    
+    //date속성이 현재 시간보다 작은지 확인합니다. 작으면 참값이므로 정렬시킬수 있습니다.
     var isPast: Bool {
         date < Date.now
     }

@@ -3,8 +3,9 @@ See the License.txt file for this sample’s licensing information.
 */
 
 import SwiftUI
-
+//데이터를 구체화하고 업데이트 합니다.
 class EventData: ObservableObject {
+    //published를 통해 이벤트를 업데이트 할 수 있습니다. 이벤트의 추가 및 삭제가 가능합니다.
     @Published var events: [Event] = [
         Event(symbol: "gift.fill",
               color: .red,
@@ -86,7 +87,7 @@ class EventData: ObservableObject {
               ],
               date: Date.roundedHoursFromNow(60 * 60 * 24 * 19)),
     ]
-
+    //이벤트를 삭제, 추가 등을 합니다.
     func delete(_ event: Event) {
         events.removeAll { $0.id == event.id }
     }
